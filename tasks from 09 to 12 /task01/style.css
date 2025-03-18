@@ -1,0 +1,27 @@
+div {
+    display: inline-block;
+}
+.assign-1-shape-1 , .assign-1-shape-2 , .assign-1-shape-3 ,.assign-1-shape-4 {
+    width: 160px;
+    height: 60px;
+    background-color: #D4D4D4;
+    margin: 10px;
+    text-align: center;
+    padding-top: 40px;
+    outline: 8px solid;
+}
+.assign-1-shape-1 {
+    border: red solid 9px;
+}
+.assign-1-shape-2 {
+    border-left: green solid 9px;
+    border-right: green solid 9px;
+    border-bottom: blue solid 9px;
+    border-top: blue solid 9px;
+}
+.assign-1-shape-3 {
+    border-top: red dashed 9px;
+    border-bottom: blue dashed 9px;
+    border-left: yellow dashed 9px;
+    border-right: green dashed 9px;
+}
