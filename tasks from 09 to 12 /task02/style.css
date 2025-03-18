@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.element {
+    width: 300px;
+    height: 30px;
+    background-color: #EEEEEE;
+    margin: 10px;
+    padding: 10px;
+    border-left: red 6px solid;
+}
+.element-1  {
+    border-color:#E91E63 ;
+}
+.element-2 {
+    visibility: hidden;
+}
+.element-3 {
+    border-color: #009688;
+}
