@@ -1,0 +1,14 @@
+.classY {
+    background-color:#A52A2A ;
+    margin: 10px;
+    max-width: 400px;
+    height: 40px;
+    color: white;
+    padding: 10px;
+}
+.one , .two , .three {
+    width: fit-content;
+}
+.four {
+    overflow: hidden;
+}
