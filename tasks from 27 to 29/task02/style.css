@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    font-weight: 800;
+}
+div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #B3B3B3;
+    color: black;
+}
+.one {
+    background-color:#b3b3b33b ;
+}
+.two {
+    opacity: 0.1;
+}
