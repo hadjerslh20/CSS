@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    font-weight: 800;
+}
+div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.green {
+    background-color: #009688;
+    left: 20px;
+    z-index: 3;
+}
+.red {
+    background-color: #F44336;
+    left: 30px;
+    top: 20px;
+    z-index: 4;
+}
+.blue {
+    background-color: #03A9F4;
+    top: -5px;
+    z-index: 2;
+}
+.black {
+    background-color: black;
+    z-index: 1;
+}
