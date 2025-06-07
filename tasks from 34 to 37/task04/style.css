@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    
+}
+p {
+    margin: 5px auto;
+    background-color:#EFEFEF ;
+    width: 310px;
+    text-align: center;
+    padding: 15px;
+    border-right: 4px solid #F44336;
+    counter-increment: counterNum;
+    position: relative;
+}
+p::before {
+    content: counter(counterNum);
+    position: absolute;
+    width: 20px;
+    height: 29px;
+    background-color: #F44336;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: white;
+}
