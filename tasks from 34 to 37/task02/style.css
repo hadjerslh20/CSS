@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    
+}
+div {
+    width: 350px;
+    height: 35px;
+    background-color: #D4D4D4;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 15px;
+}
+div::first-letter {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    margin-left: -70px;
+}
