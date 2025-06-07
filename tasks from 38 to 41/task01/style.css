@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    
+}
+div:empty{
+    background-color:#EEEEEE ;
+    margin: 20px ;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 3px solid black;
+    box-shadow: -8px -8px #E91E63 , 8px 8px #2196F3;
+    position: relative;
+    counter-increment: countName;
+}
+div::after {
+    content: "Element";
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    font-weight: 500;
+}
+div::before {
+    content: counter(countName);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    top: -20px;
+    left: 40%;
+}
