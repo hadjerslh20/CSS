@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+    
+}
+div:empty {
+    width: 100px;
+    height: 100px;
+    background-color: #EFEFEF;
+    border-radius: 10px 50px;
+    margin: auto;
+    box-shadow: 0 0 10px black inset;
+}
