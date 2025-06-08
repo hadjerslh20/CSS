@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    
+}
+.parent {
+    background-color: #F2F2F4;
+    width: 400px;
+    margin:  auto;
+    padding: 5px;
+    margin-top: 80px;
+    transition: margin-top ,0.5, linear;
+}
+.parent .childOne {
+    padding: 15px;
+    margin: 40px;
+    text-align: center;
+    
+}
+.parent .childTwo {
+    padding: 15px;
+    margin: 40px;
+    margin-top: 60px;
+    text-align: center;
+    transition: margin-top , 0.5 ,linear ,0.5 ;
+}
+.parent:hover {
+    margin-top: -40px;
+}
+.parent .childTwo:hover {
+    margin-top: 80px;
+    background-color: #DEDEDC;
+}
