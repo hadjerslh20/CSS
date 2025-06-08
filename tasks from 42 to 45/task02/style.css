@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    
+}
+div {
+    background-color:#EEEEEE !important ;
+    width: 400px;
+    color: black !important;
+    border: none !important;
+    margin: auto;
+    text-align: center;
+    font-size: 20px !important;
+}
+div p {
+    display: none;
+}
+div::after {
+    content: "Elzero";
+}
