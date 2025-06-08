@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+    
+}
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+}
+
+div {
+    border: 2px solid var(--mainColor , black);
+    padding: var(--mainPadding,10px);
+    color: var(--mainColor, red);
+    width: 500px;
+    margin:5px auto;
+}
