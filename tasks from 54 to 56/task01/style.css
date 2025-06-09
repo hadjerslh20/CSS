@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    
+}
+div {
+    background-color: #EEEEEE;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    border: 10px solid;
+    border-image: linear-gradient(to right , #F44336 20%, #2196F3 20% ,#2196F3 40% , #4CAF50 40%,#4CAF50 60%, #E91E63 60%,#E91E63 80%,#673AB7 80%  )1;
+}
