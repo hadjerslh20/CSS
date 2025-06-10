@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    
+}
+.parent {
+  background-color: #EEEEEE;
+  width: 600px;
+  height: 300px;
+  margin: 10px auto ;
+  padding: 10px;
+  display: flex;
+ justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.parent div {
+  background-color: #009688;
+  color: white;
+  width: 130px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.parent .one , .parent .two ,.parent .three , .parent .four {
+  height: 120px;
+  width: 100px;
+}
+.parent .one {
+  background-color: #FF9800;
+}
+.parent .two {
+  background-color: #8BC34A;
+}
+.parent .three {
+  background-color:#795548 ;
+}
+.parent .four {
+  background-color:#673AB7 ;
+}
+.one {
+  order:3;
+}
+.four{
+  order:4;
+}
+.two {
+  order:2;
+}
+.two,.four {
+  align-self:flex-end;
+}
+
