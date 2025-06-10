@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    
+}
+div {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #FF5722;
+    border-radius: 50%;
+    box-shadow: 6px 0px #03A9F4 inset , -6px 0px #FF5722 inset;
+}
