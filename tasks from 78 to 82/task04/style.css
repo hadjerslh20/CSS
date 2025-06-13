@@ -1,0 +1,10 @@
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+div[title='Elzero'], div[title="Hello"] ,div[title="HTML"]{
+  color: red;
+}
