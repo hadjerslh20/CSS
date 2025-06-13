@@ -1,0 +1,67 @@
+:root {
+  --mainColor:#DDDDDD;
+}
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    
+    
+    
+}
+.page {
+  background-color:#EEEEEE ;
+  padding: 10px;
+}
+.page .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.page .logo {
+  background-color: var(--mainColor);
+  width: 15%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.page .links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  background-color: var(--mainColor);
+  width: 84%;
+  height: 40px;
+}
+.page .links li {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.main-area {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.main-area .content {
+  background-color: var(--mainColor);
+  width: 79%;
+  height: 500px;
+  padding: 5px;
+}
+.main-area .sidebar {
+  background-color: var(--mainColor);
+  width: 20%;
+  padding: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--mainColor);
+  height: 40px;
+  padding: 10px;
+}
