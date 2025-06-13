@@ -1,0 +1,33 @@
+:root {
+  --mainColor:#DDDDDD;
+}
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  margin: 25px auto;
+  width: 200px;
+  height: 200px;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 29px;
+  font-weight: 600;
+  border-radius: 50%;
+  border: 10px solid #E91E63;
+  border-left: 10px solid white;
+  position: relative;
+}
+div::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  z-index: -1;
+  border: 10px solid #2196F3;
+  border-right: 10px solid transparent;
+}
